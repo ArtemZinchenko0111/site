@@ -1,0 +1,31 @@
+body{
+	background-color: lightgoldenrodyellow;
+	}
+p{font-size: 70px;
+color: navajowhite;
+}
+.p1{
+	background-color: red;
+text-align: center;
+}
+.p2{
+	font-family: 'Pacifico', cursive;
+}
+.p3{
+ font-family: 'Philosopher', sans-serif;
+}
+.p4{
+	font-family: 'Pixelify Sans', cursive;
+}
+.p5{
+	font-family: 'Flow Rounded', cursive;
+}
+.p6{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.p7{
+    font-family: 'Russo One', sans-serif;
+}
+.p8{
+	font-family: 'Sofia Sans Condensed', sans-serif;
+}

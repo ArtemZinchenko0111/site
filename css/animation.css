@@ -1,0 +1,305 @@
+body {
+	background-color: lightsalmon;
+}
+p {
+	color: lightblue;
+	background-color: darkviolet;
+	font-size: 50px;
+}
+div {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+}
+.d1 {
+	animation-name: example1;
+	animation-duration: 5s;
+}
+@keyframes example1{
+	from{background-color: yellow;}
+	to{background-color: blue;}
+}
+.d2 {
+	animation-name: example2;
+	animation-duration: 5s;
+}
+@keyframes example2{
+	0%{background-color: yellow;}
+	5%{background-color: blue;}
+	10%{background-color: red;}
+	25%{background-color: fuchsia;}
+	50%{background-color: green;}
+	60%{background-color: yellowgreen;}
+	80%{background-color: darkcyan;}
+	100%{background-color: tomato;}
+}
+.d3 {
+	animation-name: example3;
+	animation-duration: 10s;
+	position: relative;
+}
+@keyframes example3{
+	0%{background-color: yellow; left: 0px; top: 0px;}
+	5%{background-color: blue;}
+	10%{background-color: red; left: 200px; top: 0px;}
+	25%{background-color: fuchsia; }
+	50%{background-color: green; left: 200px; top: 200px;}
+	60%{background-color: yellowgreen; left: 0px; top: 200px;}
+	80%{background-color: darkcyan;}
+	100%{background-color: tomato;left: 0px; top: 0px;}
+}
+.d4 {
+	animation-name: example4;
+	animation-duration: 10s;
+	position: relative;
+	animation-delay: 2s;
+}
+@keyframes example4{
+	0%{background-color: yellow; left: 0px; top: 0px;}
+	5%{background-color: blue;}
+	10%{background-color: red; left: 200px; top: 0px;}
+	25%{background-color: fuchsia; }
+	50%{background-color: green; left: 200px; top: 200px;}
+	60%{background-color: yellowgreen; left: 0px; top: 200px;}
+	80%{background-color: darkcyan;}
+	100%{background-color: tomato;left: 0px; top: 0px;}
+}
+.d5 {
+	animation-name: example5;
+	animation-duration: 10s;
+	position: relative;
+	animation-delay: -2s;
+}
+@keyframes example5{
+	0%{background-color: yellow; left: 0px; top: 0px;}
+	5%{background-color: blue;}
+	10%{background-color: red; left: 200px; top: 0px;}
+	25%{background-color: fuchsia; }
+	50%{background-color: green; left: 200px; top: 200px;}
+	60%{background-color: yellowgreen; left: 0px; top: 200px;}
+	80%{background-color: darkcyan;}
+	100%{background-color: tomato;left: 0px; top: 0px;}
+}
+.d6 {
+	animation-name: example6;
+	animation-duration: 5s;
+	position: relative;
+	animation-delay: 2s;
+	animation-iteration-count: 3;
+}
+@keyframes example6{
+	0%{background-color: yellow; left: 0px; top: 0px;}
+	5%{background-color: blue;}
+	10%{background-color: red; left: 200px; top: 0px;}
+	25%{background-color: fuchsia; }
+	50%{background-color: green; left: 200px; top: 200px;}
+	60%{background-color: yellowgreen; left: 0px; top: 200px;}
+	80%{background-color: darkcyan;}
+	100%{background-color: tomato;left: 0px; top: 0px;}
+}
+.d7 {
+	animation-name: example7;
+	animation-duration: 5s;
+	position: relative;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes example7{
+	0%{background-color: yellow; left: 0px; top: 0px;}
+	5%{background-color: blue;}
+	10%{background-color: red; left: 200px; top: 0px;}
+	25%{background-color: fuchsia; }
+	50%{background-color: green; left: 200px; top: 200px;}
+	60%{background-color: yellowgreen; left: 0px; top: 200px;}
+	80%{background-color: darkcyan;}
+	100%{background-color: tomato;left: 0px; top: 0px;}
+}
+.d8 {
+	animation-name: example8;
+	animation-duration: 5s;
+	position: relative;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+}
+@keyframes example8{
+	0%{background-color: yellow; left: 0px; top: 0px;}
+	5%{background-color: blue;}
+	10%{background-color: red; left: 200px; top: 0px;}
+	25%{background-color: fuchsia; }
+	50%{background-color: green; left: 200px; top: 200px;}
+	60%{background-color: yellowgreen; left: 0px; top: 200px;}
+	80%{background-color: darkcyan;}
+	100%{background-color: tomato;left: 0px; top: 0px;}
+}
+.d9 {
+	animation-name: example9;
+	animation-duration: 5s;
+	position: relative;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes example9{
+	0%{background-color: yellow; left: 0px; top: 0px;}
+	5%{background-color: blue;}
+	10%{background-color: red; left: 200px; top: 0px;}
+	25%{background-color: fuchsia; }
+	50%{background-color: green; left: 200px; top: 200px;}
+	60%{background-color: yellowgreen; left: 0px; top: 200px;}
+	80%{background-color: darkcyan;}
+	100%{background-color: tomato;left: 0px; top: 0px;}
+}
+.d10 {
+	animation-name: example10;
+	animation-duration: 5s;
+	position: relative;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+@keyframes example10{
+	0%{background-color: yellow; left: 0px; top: 0px;}
+	5%{background-color: blue;}
+	10%{background-color: red; left: 200px; top: 0px;}
+	25%{background-color: fuchsia; }
+	50%{background-color: green; left: 200px; top: 200px;}
+	60%{background-color: yellowgreen; left: 0px; top: 200px;}
+	80%{background-color: darkcyan;}
+	100%{background-color: tomato;left: 0px; top: 0px;}
+}
+.d11 {
+	animation-name: example11;
+	animation-duration: 5s;
+	position: relative;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease;
+}
+@keyframes example11{
+	0%{background-color: yellow; left: 0px; top: 0px;}
+	5%{background-color: blue;}
+	10%{background-color: red; left: 200px; top: 0px;}
+	25%{background-color: fuchsia; }
+	50%{background-color: green; left: 200px; top: 200px;}
+	60%{background-color: yellowgreen; left: 0px; top: 200px;}
+	80%{background-color: darkcyan;}
+	100%{background-color: tomato;left: 0px; top: 0px;}
+}
+
+.d12 {
+	animation-name: example12;
+	animation-duration: 5s;
+	position: relative;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease-in;
+}
+@keyframes example12{
+	0%{background-color: yellow; left: 0px; top: 0px;}
+	5%{background-color: blue;}
+	10%{background-color: red; left: 200px; top: 0px;}
+	25%{background-color: fuchsia; }
+	50%{background-color: green; left: 200px; top: 200px;}
+	60%{background-color: yellowgreen; left: 0px; top: 200px;}
+	80%{background-color: darkcyan;}
+	100%{background-color: tomato;left: 0px; top: 0px;}
+}
+.d13 {
+	animation-name: example13;
+	animation-duration: 5s;
+	position: relative;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease-out;
+}
+@keyframes example13{
+	0%{background-color: yellow; left: 0px; top: 0px;}
+	5%{background-color: blue;}
+	10%{background-color: red; left: 200px; top: 0px;}
+	25%{background-color: fuchsia; }
+	50%{background-color: green; left: 200px; top: 200px;}
+	60%{background-color: yellowgreen; left: 0px; top: 200px;}
+	80%{background-color: darkcyan;}
+	100%{background-color: tomato;left: 0px; top: 0px;}
+}
+.d14 {
+	animation-name: example14;
+	animation-duration: 5s;
+	position: relative;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease-in-out;
+}
+@keyframes example14{
+	0%{background-color: yellow; left: 0px; top: 0px;}
+	5%{background-color: blue;}
+	10%{background-color: red; left: 200px; top: 0px;}
+	25%{background-color: fuchsia; }
+	50%{background-color: green; left: 200px; top: 200px;}
+	60%{background-color: yellowgreen; left: 0px; top: 200px;}
+	80%{background-color: darkcyan;}
+	100%{background-color: tomato;left: 0px; top: 0px;}
+}
+.d15 {
+	animation-name: example15;
+	animation-duration: 5s;
+	position: relative;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	width: 300px;
+	font-size: 26px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+@keyframes example15{
+	0%{background-color: yellow; left: 0%; top: 0%;}
+	5%{background-color: blue;}
+	10%{background-color: red; left: 25%px; top: 0%;}
+	25%{background-color: fuchsia; }
+	50%{background-color: green; left: 50%px; top: 0%;}
+	60%{background-color: yellowgreen; left: 75%; top: 0%;}
+	80%{background-color: darkcyan;}
+	100%{background-color: tomato;left: 100%; top: 0%;}
+}
+.d16 {
+	animation-name: example16;
+	animation-duration: 5s;
+	position: relative;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	width: 300px;
+	font-size: 26px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+@keyframes example16{
+	0%{left: 0%; top: 0%;}
+	100%{;left: 100%; top: 0%;}
+}
+.d17 {
+	animation-name: example15;
+	animation-duration: 0.3s;
+	position: relative;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	display: flex;
+	border-radius: 50%;
+}
+@keyframes example15{
+	0%{background-color: yellow; left: 0%; top: 0%;}
+	5%{background-color: blue;}
+	10%{background-color: red; left: 25%px; top: 0%;}
+	25%{background-color: fuchsia; }
+	50%{background-color: green; left: 50%px; top: 0%;}
+	60%{background-color: yellowgreen; left: 75%; top: 0%;}
+	80%{background-color: darkcyan;}
+	100%{background-color: tomato;left: 100%; top: 0%;
+	}
+}

@@ -1,0 +1,51 @@
+body {
+	background-color: 	black;
+}
+p {
+	color: 	green;
+	background-color: orange;
+	font-family: 'Pixelify Sans', sans-serif;
+	text-align: center	;
+	font-size: 50px;
+}
+table {
+	color: 	violet;
+	border: 	double 5px yellow;
+	width: 50%;
+	font-size: 	24px;
+}
+th,td {
+	border: solid 2px cyan;
+	width: 	25%;
+	height: 1cm;
+}
+tr :hover{
+	background-color: lightgrey;
+}
+td:hover{
+	background-image: url(https://media.tenor.com/KdtU9q5XTkEAAAAC/rainbow.gif);
+	color: black;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 	1.2em;
+}
+tr:nth-child(odd){
+	background-color: lightcoral;
+}
+tr:nth-child(even){
+	background-color: lightseagreen;
+}
+.sc {
+	border: dashed 3px darkcyan;
+	text-align: left;
+	vertical-align: bottom;
+
+}
+caption {
+	font-size: 50px;
+	background: linear-gradient(to left, red, yellow, green, cyan, blue, violet);
+	text-transform: uppercase;
+	font-weight: 800;
+	color: springgreen;
+}

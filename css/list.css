@@ -1,0 +1,37 @@
+body{
+	background-color: lightgreen;
+}
+p{
+	background-color: purple;
+	color: black;
+	font-size: 40px;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+ul,ol,dl{
+	color: indigo;
+	font-size: 23px;
+}
+.l1 li{
+padding-left: 7px;
+}
+.l2 li::marker{
+	color: red;
+}
+ol{
+	color: indigo;
+	font-size: 24px;
+	margin-left: 39px;
+}
+@counter-style circled-digits {
+  system: fixed;
+  symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋;
+  suffix: " ";
+}
+
+.l3 {
+  list-style: circled-digits;
+}
+.l4 {
+	list-style-image: 	url(../img/redred.png);
+}
